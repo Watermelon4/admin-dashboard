@@ -10,9 +10,26 @@
 <body>
   <div class="header">
     <div class="search">
-      <input type="button">
+      <label class="visuallyhidden" for="search-button">Search</label>
+      <button id="search-button" type="button">search</button>
       <label class="visuallyhidden" for="search-bar">Search Bar</label>
-      <input type="text" id="search-bar" name="search-bar">
+      <input id="search-bar" type="text" name="search-bar">
+    </div>
+    <div>
+      <label class="visuallyhidden" for="notification-button">Notifications</label>
+      <button id="notification-button" type="button">notifications</button>
+      <label class="visuallyhidden" for="profile-button">Profile</label>
+      <button id="profile-button" type="button">profile</button>
+    </div>
+    <div class="welcome">
+      <img alt="profile picture">
+      <p>Hello there,</p>
+      <p>Name</p>
+    </div>
+    <div class="actions">
+      <button type="button">New</button>
+      <button type="button">Upload</button>
+      <button type="button">Share</button>
     </div>
   </div>
   <div class="sidebar">
