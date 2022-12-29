@@ -35,6 +35,13 @@ body {
 
 .sidebar {
     grid-row: 1 / 3;
+    display: grid;
+    grid-template-rows: 2fr repeat(11, 1fr) auto;
+    grid-template-columns: 1fr 4fr;
+}
+
+.sidebar > * {
+    max-height: fit-content;
 }
 
 .content {
