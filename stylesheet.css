@@ -57,13 +57,16 @@ body {
 }
 
 .ib-container > button {
+  z-index: 1;
   flex: auto;
   padding-left: 40px;
   text-align: left;
+  background-color: transparent;
 }
 
 .sidebar img {
   position: absolute;
+  z-index: 0;
   height: 40px;
   width: 40px;
 }
