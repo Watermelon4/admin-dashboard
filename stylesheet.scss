@@ -42,6 +42,11 @@ body {
         "welcome actions";
 }
 
+.welcome {
+    display: flex;
+    flex-direction: row;
+}
+
 .sidebar {
     grid-row: 2 / 4;
     grid-column: 1 / 2;
