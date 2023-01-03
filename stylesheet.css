@@ -37,9 +37,36 @@ body {
   grid-template-areas: "search profile" "welcome actions";
 }
 
+.search {
+  display: flex;
+  padding: 10px;
+}
+
+#search-bar {
+  flex: auto;
+}
+
 .welcome {
   display: flex;
   flex-direction: row;
+  padding: 10px;
+}
+
+.welcome > img {
+  margin-right: 10px;
+}
+
+.top-right, .create-actions {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.create-actions > button {
+  box-sizing: border-box;
+  width: 60px;
+  margin-right: 12px;
 }
 
 .sidebar {
@@ -118,7 +145,7 @@ body {
   flex: auto;
 }
 
-.actions {
+.articles .actions {
   flex-direction: row-reverse;
 }
 
