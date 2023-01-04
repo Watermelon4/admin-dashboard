@@ -132,7 +132,7 @@ body {
     grid-row: 2 / 5;
     grid-column: 1 / 2;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     row-gap: 15px;
     column-gap: 15px;
     margin: 15px;
@@ -142,7 +142,6 @@ body {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    height: 200px;
     padding: 12px;
 } 
 
