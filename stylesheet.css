@@ -183,6 +183,12 @@ body {
   padding: 24px 0px;
 }
 
+#mid-announcement {
+  border-style: solid;
+  border-width: 1px 0px;
+  border-color: rgb(255, 145, 0);
+}
+
 #trending {
   grid-area: 3/2/4/3;
 }
@@ -195,9 +201,17 @@ body {
   margin: 8px;
 }
 
-.profile {
+.trending > div {
   display: flex;
   flex-direction: row;
+  border-style: solid;
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-color: rgb(255, 145, 0);
+}
+
+.profile:last-child {
+  border-style: none;
 }
 
 .profile > img {
