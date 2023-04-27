@@ -1,5 +1,10 @@
+$base-colour: #03000d;
+$text-colour: #f0f8ff;
+
 * {
     margin: 0px;
+    color: $text-colour;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 body {
@@ -11,6 +16,7 @@ body {
         "sidebar header"
         "sidebar content";
     height: 100vh;
+    background-color: $base-colour;
 }
 
 .visuallyhidden {
@@ -143,6 +149,7 @@ body {
     flex-direction: column;
     box-sizing: border-box;
     padding: 12px;
+    max-height: 300px;
 } 
 
 .articles .actions {

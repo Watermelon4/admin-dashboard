@@ -1,5 +1,7 @@
 * {
   margin: 0px;
+  color: #f0f8ff;
+  font-family: "Noto Sans", sans-serif;
 }
 
 body {
@@ -8,6 +10,7 @@ body {
   grid-template-columns: auto 1fr;
   grid-template-areas: "logo header" "sidebar header" "sidebar content";
   height: 100vh;
+  background-color: #03000d;
 }
 
 .visuallyhidden {
@@ -123,7 +126,7 @@ body {
   grid-row: 2/5;
   grid-column: 1/2;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   row-gap: 15px;
   column-gap: 15px;
   margin: 15px;
@@ -133,8 +136,8 @@ body {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  height: 200px;
   padding: 12px;
+  max-height: 300px;
 }
 
 .articles .actions {
