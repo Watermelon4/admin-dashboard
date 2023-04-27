@@ -84,12 +84,18 @@ body {
     display: flex;
     flex-direction: row;   
     justify-content: flex-end;
+    align-items: center;
 }
 
 .create-actions > button {
     box-sizing: border-box;
     width: 60px;
+    height: 50%;
     margin-right: 12px;
+    border-style: none;
+    border-radius: 8px;
+    color: $base-colour;
+    background-color: $accent-colour;
 }
 
 .sidebar {
