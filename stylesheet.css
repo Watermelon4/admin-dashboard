@@ -138,6 +138,11 @@ body {
   box-sizing: border-box;
   padding: 12px;
   max-height: 300px;
+  border-style: outset;
+  border-width: thin;
+  border-left-width: 4px;
+  border-radius: 8px;
+  border-color: rgb(255, 145, 0);
 }
 
 .articles .actions {
