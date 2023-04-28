@@ -88,9 +88,18 @@ body {
 #search-bar {
     flex: auto;
     height: 50%;
-    border-radius: 12px;
+    border-radius: 16px;
+    background-color: white;
     color: black;
     padding-left: 10px;
+    border-style: none;
+}
+
+#search-bar:focus-visible {
+    border-style: none;
+    outline-style: solid;
+    outline-color: $accent-colour;
+    outline-width: 2px;
 }
 
 .welcome {
